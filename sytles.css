@@ -1,0 +1,26 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#stopwatch {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.numpad-container {
+    display: flex;
+    justify-content: center;
+}
+
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+}
+
+.numpad button {
+    padding: 5px 10px;
+    font-size: 1em;
+    width: 50px; /* Adjust button width as needed */
+}
