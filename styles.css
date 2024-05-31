@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  #display {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 0 10px;
+  }
+  /* Existing styles... */
+
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .numBtn {
+    font-size: 1.5em;
+    padding: 10px 20px;
+  }
+  
